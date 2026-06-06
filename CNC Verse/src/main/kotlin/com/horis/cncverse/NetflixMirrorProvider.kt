@@ -23,7 +23,7 @@ import com.lagradost.cloudstream3.ui.settings.Globals.isLayout
 class NetflixMirrorProvider : MainAPI() {
     companion object {
         var context: Context? = null
-        private const val OMG10 = "aHR0cHM6Ly9vbWcxMC5jb20vNC8xMTEwNDQ4OQ=="
+        private const val OMG10 = ""
         @Volatile private var lastBrowserOpenMs = 0L
         private const val BROWSER_DEBOUNCE_MS = 10_000L
     }
